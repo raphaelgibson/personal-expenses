@@ -1,3 +1,6 @@
 {
-  "extends": "@ignite-ui/eslint-config"
+  "extends": "@rocketseat/eslint-config/react",
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  }
 }

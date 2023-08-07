@@ -14,12 +14,11 @@ header {
   display: flex;
   justify-content: center;
   color: #cee7ea;
-  border-bottom: 1px solid #2f3037;
-  padding: 1.5rem;
+  padding: 1.5rem 0 0.5rem;
 }
 
 .container {
-  border-radius: 8px;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -40,7 +39,7 @@ header {
   gap: 0.5rem;
 }
 
-.expense-h, .expense {
+.expense-h {
   display: flex;
   gap: 1rem;
 }
@@ -53,28 +52,8 @@ h3 {
   color: #f0f791;
 }
 
-.expense {
-  display: flex;
-  color: #c2c3c4;
-}
-
 .expense-h p {
   font-size: 1rem;
   width: 4rem;
   text-align: left;
-}
-
-.expense p {
-  font-size: 0.75rem;
-  width: 4rem;
-  text-align: left;
-  overflow: hidden;
-}
-
-button {
-  padding: 1rem;
-  background-color: #cee7ea;
-  color: #1b1f1f;
-  font-weight: bold;
-  font-size: 1rem;
 }
