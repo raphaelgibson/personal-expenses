@@ -57,3 +57,7 @@ h3 {
   width: 4rem;
   text-align: left;
 }
+
+.react-datepicker__tab-loop {
+  margin-top: -0.75rem;
+}
